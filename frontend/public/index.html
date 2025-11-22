@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#667eea" />
+    <meta
+      name="description"
+      content="Sistema de Chatbot de Atendimento - Converse com nosso assistente virtual inteligente"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    
+    <!--
+      manifest.json fornece metadados para instalar o app como PWA
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- 
+      Pré-conecta com o backend para melhorar performance
+    -->
+    <link rel="preconnect" href="http://localhost:8000" />
+    
+    <!--
+      Meta tags para SEO e compartilhamento em redes sociais
+    -->
+    <meta property="og:title" content="Chatbot de Atendimento" />
+    <meta property="og:description" content="Sistema inteligente de atendimento ao cliente" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="%PUBLIC_URL%/logo512.png" />
+    
+    <!-- Meta tags para Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Chatbot de Atendimento" />
+    <meta name="twitter:description" content="Sistema inteligente de atendimento ao cliente" />
+    
+    <!-- Título da página -->
+    <title>🤖 Chatbot de Atendimento | Sistema Inteligente</title>
+  </head>
+  <body>
+    <noscript>
+      <div style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+      ">
+        <div>
+          <h1 style="font-size: 3rem; margin-bottom: 20px;">⚠️</h1>
+          <h2 style="margin-bottom: 10px;">JavaScript Desabilitado</h2>
+          <p style="font-size: 1.2rem;">
+            Você precisa habilitar o JavaScript no seu navegador para usar este aplicativo.
+          </p>
+        </div>
+      </div>
+    </noscript>
+    
+    <!--
+      Este é o ponto de entrada da aplicação React.
+      O React renderiza todo o conteúdo dentro desta div.
+    -->
+    <div id="root"></div>
+    
+    <!--
+      Este HTML contém apenas a estrutura básica.
+      Todo o conteúdo é gerado dinamicamente pelo React.
+      
+      Para começar o desenvolvimento, rode:
+        npm start
+      
+      Para criar um build de produção, rode:
+        npm run build
+    -->
+  </body>
+</html>
